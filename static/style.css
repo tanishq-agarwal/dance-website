@@ -3,6 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img {
+    height: 42px;
+    border-radius: 100%;
+    
+}
 #navbar{
     background-color: #d43b3b;
     font-family: 'Yeon Sung' ;
@@ -11,7 +25,6 @@
 #navbar ul{
     display: flex;
     flex-direction: row;
-     justify-content: center;
     align-items: center;
 }
 #navbar li{
@@ -76,6 +89,19 @@
     margin: 0 12px;
     margin-top: 24px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;  
 }
 #footer{
     background-color: black;
