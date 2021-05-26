@@ -6,7 +6,7 @@
 #navbar{
     background-color: #d43b3b;
     font-family: 'Yeon Sung' ;
-    padding: 13px, 14px;
+    padding: 18px 14px;
 }
 #navbar ul{
     display: flex;
@@ -19,7 +19,9 @@
 }
 #navbar li a{ 
    text-decoration: none;
-    padding: 13px 20px;
+    padding: 13px 30px;
+    font-size: 17px;
+    color: white;
 }
 #navbar li a:hover{
     color: black;  
@@ -47,6 +49,33 @@
 #sponsorsSection h2{
     text-align: center;
     padding-top: 10px;
+}
+
+#missionSection{
+    height: 326px;; 
+    width: 67%;
+    margin: auto;
+}
+
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 13px;
+    height: 220px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #footer{
     background-color: black;
