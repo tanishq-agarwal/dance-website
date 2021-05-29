@@ -57,13 +57,25 @@
 }
 #sponsorsSection{
     height: 300px;
-    background-color: #fbd6d6c7;
+    background-color: #ac6c6cc7;
 }
 #sponsorsSection h2{
     text-align: center;
     padding-top: 10px;
 }
+#sponsors{
+    height: 186px;
+    max-width: 1000px;
+    margin: 32px auto;
+}
 
+.spImage{
+    height: 80%;
+    margin: 20px 50px;
+    border-radius: 50%;
+}
+
+   
 #missionSection{
     height: 326px;; 
     width: 67%;
@@ -105,5 +117,11 @@
 }
 #footer{
     background-color: black;
-    height: 100px;
+    height: 40px;
+    display: flex;
+    font-size: 14px;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+
 }

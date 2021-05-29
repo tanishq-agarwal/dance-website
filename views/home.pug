@@ -1,21 +1,13 @@
-doctype html
-html
-  head
-    title Tanishq Dance Academy
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
     style
       include ../static/style.css
-  body
-    nav#navbar 
-        ul 
-            div#logo 
-                img(src="/static/img/logo.png")
-                | HDA
-            li #[a(href="/") Home]
-            li #[a(href="/") About]
-            li #[a(href="/") Services]
-            li #[a(href="/") Class Info]
-            li #[a(href="/") Contact Us]
 
+block content 
     section#introSection
         div Welcome to Tanishq's Dance Academy
         div.small Eat Sleep Dance Repeat
@@ -52,8 +44,6 @@ html
             img(src= "/static/img/logo2.png", alt= "Sponsor Image", class= "spImage")
             img(src= "static/img/logo3.png", alt= "Sponsor Image", class= "spImage")
             img(src= "static/img/logo4.png", alt= "Sponsor Image", class= "spImage") 
-    footer#footer
-        | Copyright © 2019 TanishqAgarwal.com | All Rights Reserved
 
-    script 
-        include ../static/index.js        
+
+    
